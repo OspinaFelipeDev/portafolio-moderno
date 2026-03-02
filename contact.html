@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Andrés Ospina</title>
+    <link rel="icon" href="assets/icons/logo-purple.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-contact">
+      <a href="index.html">
+        <img src="assets/icons/logo-purple.png" alt="Logo" class="logo-img" />
+      </a>
+
+      <div class="middle-wrapper">
+        <img
+          src="assets/images/contact-4.png"
+          alt="Contact illustration"
+          class="middle-img"
+        />
+      </div>
+
+      <a href="index.html" class="close-icon">
+        <i class="fa-solid fa-xmark"></i>
+      </a>
+    </header>
+    <main>
+      <div class="text-main">
+        <p>
+          Thanks for taking the time to reach out. How can I help you today?
+        </p>
+      </div>
+
+      <div class="form-container">
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Submit</button>
+
+          <!-- Mensaje dinámico -->
+          <p class="form-message"></p>
+        </form>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/email.js"></script>
+  </body>
+</html>

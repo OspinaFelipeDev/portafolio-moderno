@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+.header-contact {
+  display: flex;
+  align-items: center; /* vuelve a center */
+  justify-content: space-between;
+  padding: 2rem 3rem 1rem 3rem;
+}
+
+.header-contact {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.logo-img {
+  height: 8rem;
+}
+
+
+
+.middle-img {
+  width: 9rem;
+  transform: translate( -0.6rem , 5.6rem );
+}
+
+.close-icon {
+  font-size: 2.6rem;
+  color: #6e07f3;
+  padding: 0.8rem;
+  border-radius: 50%;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  /* 👇 NUEVO */
+  align-self: flex-start;
+  margin-top: 1.3rem;
+}
+
+.close-icon:hover {
+  background-color: #f3eaff;
+  transform: rotate(90deg) scale(1.1);
+}
+
+main {
+  max-width: 600px;
+  margin: 6rem auto;
+  padding: 0 2rem;
+}
+
+.text-main {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.text-main p {
+  margin-top: 8rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #141c3a;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+  color: rgba(41, 51, 71, 0.65);
+}
+
+input,
+textarea {
+  padding: 1.2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  font-family: inherit;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #6e07f3;
+  box-shadow: 0 0 0 3px rgba(110, 7, 243, 0.1);
+}
+
+.submit-btn {
+  padding: 1.5rem 1.2rem;
+  background-color: white;           /* fondo blanco */
+  color: #6e07f3;                    /* texto morado */
+  border: 2px solid #6e07f3;         /* borde morado */
+  border-radius: 40px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;         /* transición más limpia */
+  margin-top: 3rem;
+}
+
+.submit-btn:hover {
+  background-color: #6e07f3;         /* fondo morado */
+  color: white;                      /* texto blanco */
+  box-shadow: 0 4px 12px rgba(110, 7, 243, 0.25);
+}
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
+
+.form-message {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}

@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrés Ospina | Web Developer</title>
+    <link rel="icon" href="assets/icons/logo-purple.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="styles/index-tablet.css"
+      media="(min-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/index-desktop.css"
+      media="(min-width: 1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header" id="top">
+      <div class="header-container">
+        <!-- Logo -->
+        <a href="index.html">
+          <img
+            src="assets/icons/logo-purple.png"
+            alt="Logo"
+            class="header-logo"
+          />
+        </a>
+
+        <!-- Lado derecho -->
+        <div class="header-actions">
+          <button
+            id="theme-toggle"
+            aria-label="Cambiar tema"
+            aria-pressed="false"
+          >
+            <i class="fa-solid fa-circle-half-stroke fa-moon"></i>
+          </button>
+
+          <button id="lang-toggle" class="lang-btn" aria-label="Cambiar idioma">
+            EN
+          </button>
+
+          <a
+            href="contact.html"
+            class="header-mail"
+            aria-label="Envíame un mensaje"
+          >
+            <svg
+              role="img"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Contacto</title>
+              <path
+                fill="currentColor"
+                d="M1.5 4.5h21v15h-21v-15zm10.5 7.5L21 6H3l9 6z"
+              />
+            </svg>
+            <span class="tooltip" data-i18n="header.contact">Contáctame</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <h1 data-i18n="hero.title">Diseñador Frontend & Desarrollador Web</h1>
+
+        <p data-i18n="hero.subtitle">
+          Diseño y construyo experiencias web limpias, simples y funcionales.
+        </p>
+
+        <img
+          src="assets/images/dev-transparente.png"
+          alt="Developer illustration"
+        />
+      </section>
+
+      <section class="devices">
+        <img src="assets/images/hero-devices.svg" alt="Devices illustration" />
+      </section>
+
+      <section class="about">
+        <h1 data-i18n="about.title">Hola, soy Andrés. Mucho gusto.</h1>
+
+        <p data-i18n="about.text">
+          Desde que comencé mi camino como diseñador frontend y desarrollador
+          web, he estado creando interfaces limpias y funcionales. Disfruto
+          convertir ideas en experiencias digitales simples y seguir aprendiendo
+          en cada proyecto.
+        </p>
+      </section>
+
+      <section class="cards-section">
+        <div class="cards-container">
+          <!-- Tarjeta 1 -->
+          <div class="card">
+            <section class="icon-section">
+              <div class="icon-circle"><i class="fas fa-code"></i></div>
+            </section>
+            <h3 data-i18n="card1.title">Frontend Developer</h3>
+            <p data-i18n="card1.desc">
+              Disfruto crear interfaces web limpias y funcionales...
+            </p>
+            <h2 data-i18n="card1.techTitle">Tecnologías que utilizo:</h2>
+            <p>HTML5, JavaScript, CSS3, SASS, Node.js, React y Astro</p>
+            <h2 data-i18n="card1.toolsTitle">Herramientas:</h2>
+            <ul>
+              <li>Tailwind CSS</li>
+              <li>Webpack</li>
+              <li>npm</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+
+          <!-- Tarjeta 2 -->
+          <div class="card">
+            <section class="icon-section">
+              <div class="icon-circle"><i class="fas fa-paint-brush"></i></div>
+            </section>
+            <h3 data-i18n="card2.title">Diseñador</h3>
+            <p data-i18n="card2.desc">
+              Me enfoco en diseños simples, estructura de código limpia y
+              experiencias intuitivas para los usuarios.
+            </p>
+            <h2 data-i18n="card2.areasTitle">Áreas que disfruto diseñar:</h2>
+            <p>UX, UI, Web, Landing Pages, Apps, Logos</p>
+            <h2 data-i18n="card2.toolsTitle">Herramientas de diseño:</h2>
+            <ul>
+              <li>Figma</li>
+              <li>Adobe Photoshop</li>
+              <li>Canva</li>
+            </ul>
+          </div>
+
+          <!-- Tarjeta 3 -->
+          <div class="card">
+            <section class="icon-section">
+              <div class="icon-circle"><i class="fas fa-database"></i></div>
+            </section>
+            <h3 data-i18n="card3.title">Bases de Datos</h3>
+            <p data-i18n="card3.desc">
+              Disfruto diseñar modelos de datos eficientes, optimizar consultas
+              y asegurar un rendimiento confiable.
+            </p>
+            <h2 data-i18n="card3.systemsTitle">Sistemas:</h2>
+            <p>SQL, PL/SQL, T-SQL.</p>
+            <h2 data-i18n="card3.toolsTitle">Herramientas de Desarrollo:</h2>
+            <ul>
+              <li>My SQL</li>
+              <li>PostgreSQL</li>
+              <li>Mongo DB</li>
+              <li>Firebase Firestore</li>
+              <li>Microsoft SQL Server</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="projects-header">
+          <h1 data-i18n="projects.title">Mis proyectos recientes</h1>
+          <h2 data-i18n="projects.subtitle">
+            Aquí hay algunos proyectos en los que he trabajado.
+          </h2>
+        </div>
+
+        <div class="container-cards-projects">
+          <!-- SportSocial -->
+          <div class="project-card">
+            <div class="card-bg bg-sportsocial">
+              <h3 class="card-title">SportSocial</h3>
+            </div>
+
+            <div class="card-content-projects">
+              <p class="card-description" data-i18n="projects.sport.desc">
+                App para encuentros deportivos.
+              </p>
+              <h2 data-i18n="projects.sport.tech"></h2>
+
+
+              <div class="card-links">
+                <a
+                  data-i18n="projects.visit"
+                  href="https://ospinafelipedev.github.io/sport-social-app/"
+                  target="_blank"
+                  class="visit-link"
+                >
+                  Visitar sitio
+                </a>
+
+                <a
+                  href="https://github.com/OspinaFelipeDev/sport-social-app/tree/main"
+                  target="_blank"
+                  class="github-link"
+                  data-i18n-aria="projects.github"
+                  aria-label="Repositorio en GitHub"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Todo List -->
+          <div class="project-card">
+            <div class="card-bg bg-todolist">
+              <h3 class="card-title">Todo List</h3>
+            </div>
+
+            <div class="card-content-projects">
+              <p class="card-description" data-i18n="projects.todo.desc">
+                Lista para controlar series de anime.
+              </p>
+              <h2 data-i18n="projects.todo.tech"></h2>
+
+
+              <div class="card-links">
+                <a
+                  data-i18n="projects.visit"
+                  href="https://ospinafelipedev.github.io/Anime-List/"
+                  target="_blank"
+                  class="visit-link"
+                ></a>
+                <a
+                  href="https://github.com/OspinaFelipeDev/Anime-List"
+                  target="_blank"
+                  class="github-link"
+                  data-i18n-aria="projects.github"
+                  aria-label="Repositorio en GitHub"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Viajes -->
+          <div class="project-card">
+            <div class="card-bg bg-viajes">
+              <h3 class="card-title" data-i18n="projects.travel.title">
+                Mi viaje por el mundo
+              </h3>
+            </div>
+
+            <div class="card-content-projects">
+              <p class="card-description" data-i18n="projects.travel.desc">
+                Página con galería de fotos de mis viajes.
+              </p>
+              <h2 data-i18n="projects.travel.tech"></h2>
+
+
+              <div class="card-links">
+                <a
+                  data-i18n="projects.visit"
+                  href="https://ospinafelipedev.github.io/galeria-mi-viaje-mundo/"
+                  target="_blank"
+                  class="visit-link"
+                ></a>
+                <a
+                  href="https://github.com/OspinaFelipeDev/galeria-mi-viaje-mundo"
+                  target="_blank"
+                  class="github-link"
+                  data-i18n-aria="projects.github"
+                  aria-label="Repositorio en GitHub"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cocktail -->
+          <div class="project-card">
+            <div class="card-bg bg-cocktail">
+              <h3 class="card-title">Random Cocktail</h3>
+            </div>
+
+            <div class="card-content-projects">
+              <p class="card-description" data-i18n="projects.cocktail.desc">
+                Página con miles de recetas de cócteles.
+              </p>
+
+              <h2 data-i18n="projects.cocktail.tech"></h2>
+
+
+              <div class="card-links">
+                <a
+                  data-i18n="projects.visit"
+                  href="https://ospinafelipedev.github.io/random-cocktail/"
+                  target="_blank"
+                  class="visit-link"
+                ></a>
+                <a
+                  href="https://github.com/OspinaFelipeDev/random-cocktail"
+                  target="_blank"
+                  class="github-link"
+                  data-i18n-aria="projects.github"
+                  aria-label="Repositorio en GitHub"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cumbia -->
+          <div class="project-card">
+            <div class="card-bg bg-cumbia">
+              <h3 class="card-title">Cumbia Playlist</h3>
+            </div>
+
+            <div class="card-content-projects">
+              <p class="card-description" data-i18n="projects.cumbia.desc">
+                Reproductor de música con la mejor cumbia caucana.
+              </p>
+
+              <h2 data-i18n="projects.cumbia.tech"></h2>
+
+
+              <div class="card-links">
+                <a
+                  data-i18n="projects.visit"
+                  href="https://ospinafelipedev.github.io/Reproducto_cumbia/"
+                  target="_blank"
+                  class="visit-link"
+                ></a>
+                <a
+                  href="https://github.com/OspinaFelipeDev/Reproducto_cumbia"
+                  target="_blank"
+                  class="github-link"
+                  data-i18n-aria="projects.github"
+                  aria-label="Repositorio en GitHub"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Turismo -->
+          <div class="project-card">
+            <div class="card-bg bg-turismo">
+              <h3 class="card-title" data-i18n="projects.tourism.title">
+                Página de turismo
+              </h3>
+            </div>
+
+            <div class="card-content-projects">
+              <p class="card-description" data-i18n="projects.tourism.desc">
+                Página web de turismo.
+              </p>
+
+              <h2 data-i18n="projects.tourism.tech"></h2>
+
+
+              <div class="card-links">
+                <a
+                  data-i18n="projects.visit"
+                  href="https://ospinafelipedev.github.io/viajes-felipe/"
+                  target="_blank"
+                  class="visit-link"
+                ></a>
+                <a
+                  href="https://github.com/OspinaFelipeDev/viajes-felipe"
+                  target="_blank"
+                  class="github-link"
+                  data-i18n-aria="projects.github"
+                  aria-label="Repositorio en GitHub"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stack">
+        <div class="stack-header">
+          <h1 data-i18n="stack.title">Tecnologías</h1>
+          <img src="assets/images/tech-img.png" alt="Profile photo" />
+        </div>
+
+        <section class="tech">
+          <!-- Fundamentos -->
+          <h2 class="tech-subtitle" data-i18n="stack.fundamentals">
+            Fundamentos del Desarrollo Web
+          </h2>
+          <div class="tech-icons">
+            <div class="icon html">
+              <i class="fab fa-html5"></i>
+              <p>HTML5</p>
+            </div>
+            <div class="icon css">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS3</p>
+            </div>
+            <div class="icon js">
+              <i class="fab fa-js-square"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+
+          <!-- Librerías & Frameworks -->
+          <h2 class="tech-subtitle" data-i18n="stack.frameworks">
+            Librerías & Frameworks
+          </h2>
+          <div class="tech-icons">
+            <div class="icon react">
+              <i class="fab fa-react"></i>
+              <p>React</p>
+            </div>
+
+            <div class="icon astro">
+              <svg
+                class="astro-icon"
+                viewBox="0 0 85 107"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-label="Astro"
+              >
+                <path
+                  fill="currentColor"
+                  d="M27.59 91.136c-4.834-4.418-6.246-13.703-4.232-20.429 3.492 4.241 8.33 5.584 13.342 6.343 7.737 1.17 15.336.732 22.523-2.804.822-.405 1.582-.943 2.48-1.489.675 1.957.85 3.932.615 5.943-.573 4.896-3.01 8.678-6.885 11.545-1.55 1.147-3.19 2.172-4.79 3.253-4.917 3.323-6.247 7.22-4.4 12.888.044.139.084.277.183.614-2.51-1.124-4.344-2.76-5.742-4.911-1.475-2.27-2.177-4.78-2.214-7.498-.019-1.322-.019-2.656-.197-3.96-.434-3.178-1.926-4.601-4.737-4.683-2.884-.084-5.166 1.699-5.771 4.507-.046.216-.113.429-.18.68l.004.001ZM0 69.587s14.314-6.973 28.668-6.973L39.49 29.12c.405-1.62 1.588-2.72 2.924-2.72 1.335 0 2.518 1.1 2.924 2.72L56.16 62.614c17 0 28.668 6.973 28.668 6.973S60.514 3.352 60.467 3.219C59.769 1.261 58.591 0 57.003 0H27.827c-1.588 0-2.718 1.261-3.464 3.22C24.311 3.35 0 69.586 0 69.586Z"
+                />
+              </svg>
+              <p>Astro</p>
+            </div>
+
+            <div class="icon sass">
+              <i class="fab fa-sass"></i>
+              <p>SASS</p>
+            </div>
+
+            <div class="icon tailwind">
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-label="Tailwind CSS"
+              >
+                <title>Tailwind CSS</title>
+                <path
+                  fill="currentColor"
+                  d="M12 6c-2.667 0-4.333 1.333-5 4 1-.667 2-.917 3-.75 .57.095.978.371 1.43.676 .734.496 1.58 1.074 3.57 1.074 2.667 0 4.333-1.333 5-4 -1 .667-2 .917-3 .75 -.57-.095-.978-.371-1.43-.676 -.734-.496-1.58-1.074-3.57-1.074z M7 13c-2.667 0-4.333 1.333-5 4 1-.667 2-.917 3-.75 .57.095.978.371 1.43.676 .734.496 1.58 1.074 3.57 1.074 2.667 0 4.333-1.333 5-4 -1 .667-2 .917-3 .75 -.57-.095-.978-.371-1.43-.676 -.734-.496-1.58-1.074-3.57-1.074z"
+                />
+              </svg>
+              <p>Tailwind</p>
+            </div>
+          </div>
+
+          <!-- Herramientas -->
+          <h2 class="tech-subtitle" data-i18n="stack.tools">
+            Herramientas y Plataformas
+          </h2>
+          <div class="tech-icons">
+            <div class="icon git">
+              <i class="fab fa-git-alt"></i>
+              <p>Git</p>
+            </div>
+            <div class="icon github">
+              <i class="fab fa-github"></i>
+              <p>GitHub</p>
+            </div>
+            <div class="icon npm">
+              <i class="fab fa-npm"></i>
+              <p>NPM</p>
+            </div>
+            <div class="icon node">
+              <i class="fab fa-node-js"></i>
+              <p>Node.js</p>
+            </div>
+            <div class="icon webpack">
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-label="Webpack"
+              >
+                <title>Webpack</title>
+                <path
+                  fill="currentColor"
+                  d="M22.198 18.498L12 23.939 1.802 18.498l-.002-12.996L12 .061l10.2 5.441-.002 12.996zM11.344 2.34L3.949 6.365l7.395 4.026V2.34zm1.312 0v8.051l7.395-4.026L12.656 2.34zM2.68 7.585v8.05l7.395-4.025L2.68 7.585zm18.64 0l-7.395 4.025 7.395 4.025v-8.05zm-18.64 9.27l7.395 4.025v-8.05L2.68 16.855zm10.707 4.025l7.395-4.025-7.395-4.025v8.05z"
+                />
+              </svg>
+              <p>Webpack</p>
+            </div>
+
+            <div class="icon docker">
+              <i class="fab fa-docker"></i>
+              <p>Docker</p>
+            </div>
+            <div class="icon cloud">
+              <svg
+                class="cloud-icon"
+                viewBox="0 -25 256 256"
+                preserveAspectRatio="xMidYMid"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-label="Google Cloud"
+              >
+                <path
+                  fill="currentColor"
+                  d="m170.252 56.819 22.253-22.253 1.483-9.37C153.437-11.677 88.976-7.496 52.42 33.92 42.267 45.423 34.734 59.764 30.717 74.573l7.97-1.123 44.505-7.34 3.436-3.513c19.797-21.742 53.27-24.667 76.128-6.168l7.496.39Z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M224.205 73.918a100.249 100.249 0 0 0-30.217-48.722l-31.232 31.232a55.515 55.515 0 0 1 20.379 44.037v5.544c15.35 0 27.797 12.445 27.797 27.796 0 15.352-12.446 27.485-27.797 27.485h-55.671l-5.466 5.934v33.34l5.466 5.231h55.67c39.93.311 72.553-31.494 72.864-71.424a72.303 72.303 0 0 0-31.793-60.453"
+                />
+                <path
+                  fill="currentColor"
+                  d="M71.87 205.796h55.593V161.29H71.87a27.275 27.275 0 0 1-11.399-2.498l-7.887 2.42-22.409 22.253-1.952 7.574c12.567 9.489 27.9 14.825 43.647 14.757"
+                />
+                <path
+                  fill="currentColor"
+                  d="M71.87 61.425C31.94 61.664-.237 94.228.001 134.159a72.301 72.301 0 0 0 28.222 56.88l32.248-32.246c-13.99-6.322-20.208-22.786-13.887-36.776 6.32-13.99 22.786-20.208 36.775-13.888a27.796 27.796 0 0 1 13.887 13.888l32.248-32.248A72.224 72.224 0 0 0 71.87 61.425"
+                />
+              </svg>
+              <p>Google Cloud</p>
+            </div>
+          </div>
+
+          <!-- Base de datos -->
+          <h2 class="tech-subtitle" data-i18n="stack.database">
+            Bases de datos
+          </h2>
+          <div class="tech-icons">
+            <div class="icon sql">
+              <i class="fas fa-database"></i>
+              <p>SQL</p>
+            </div>
+            <div class="icon mysql">
+              <svg
+                role="img"
+                viewBox="0 0 256 252"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-label="MySQL"
+              >
+                <title>MySQL</title>
+                <path
+                  fill="currentColor"
+                  d="M236 194c-14 0-25 1-34 5-3 1-7 1-7 4l3 6c2 3 5 8 9 11l11 8 21 10 11 9 6 4-3-6-5-5c-5-7-11-13-18-18-6-3-18-9-20-15h-1l12-3 18-3 8-2v-2l-9-10c-8-8-18-15-28-22l-18-8c-2-1-6-2-7-4l-7-13-15-30-8-20c-18-30-38-48-68-65-6-4-14-5-22-7l-13-1-8-6C34 5 8-9 1 9c-5 11 7 22 11 28l9 13 3 9c3 8 5 17 9 24l6 10c2 2 4 3 5 6-3 4-3 9-4 13-7 20-4 44 5 59 2 4 9 14 18 10 8-3 6-13 8-22l1-4 8 14c5 9 14 18 22 24 4 3 8 8 13 10l-4-4-9-10c-8-10-14-21-20-32l-7-17-3-6c-3 4-7 7-9 12-3 7-3 17-4 26h-1c-6-1-8-7-10-12-5-12-6-32-1-46 1-4 6-15 4-19-1-3-4-5-6-7l-7-12-10-30-9-13c-3-5-7-8-10-14-1-2-2-5 0-7l2-2c2-2 9 0 11 1 6 3 12 5 17 9l8 6h4c6 1 12 0 17 2 9 3 18 7 25 12 23 14 42 35 54 59 3 4 3 8 5 12l12 26c4 8 7 16 12 23 3 4 14 6 18 8l12 4 18 12c2 2 11 7 12 10Z"
+                />
+                <path
+                  fill="currentColor"
+                  d="m58 43-7 1 6 7 4 9v-1c3-1 4-4 4-8l-2-4-5-4Z"
+                />
+              </svg>
+              <p>MySQL</p>
+            </div>
+            <div class="icon bi">
+              <i class="fa-solid fa-chart-column"></i>
+              <p>Power BI</p>
+            </div>
+          </div>
+
+          <!-- Otras habilidades -->
+          <h2 class="tech-subtitle" data-i18n="stack.other">
+            Otras habilidades
+          </h2>
+          <div class="tech-icons">
+            <div class="icon ciberseguridad">
+              <i class="fas fa-shield-alt"></i>
+              <p>Ciberseguridad</p>
+            </div>
+            <div class="icon figma">
+              <i class="fab fa-figma"></i>
+              <p>Figma</p>
+            </div>
+            <div class="icon photoshop">
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Adobe Photoshop</title>
+                <path
+                  d="M0 0v24h24V0H0zm20.54 20.54H3.46V3.46h17.08v17.08zM7.75 16.34v-8.7h3.18c.54 0 .99.06 1.33.18.34.12.62.29.84.5.21.21.37.45.47.72.1.27.15.55.15.85 0 .34-.06.65-.17.94-.11.29-.28.54-.5.76-.22.22-.5.4-.83.53-.34.13-.73.2-1.17.2H9.4v3.02H7.75zm1.65-4.4h1.38c.25 0 .47-.03.67-.1.2-.07.37-.17.5-.31.13-.14.23-.31.3-.5.07-.19.1-.4.1-.63 0-.42-.13-.74-.38-.98-.26-.24-.65-.36-1.17-.36H9.4v2.88zm6.56-1.37c.37 0 .7.03.98.1.28.06.52.13.7.21l-.32 1.28c-.2-.07-.42-.13-.66-.17-.24-.04-.5-.06-.78-.06-.32 0-.59.03-.8.1-.21.07-.38.16-.51.27-.13.11-.23.23-.29.36-.06.13-.09.27-.09.41 0 .22.06.42.18.59.12.17.31.3.55.4.24.09.54.14.9.14.37 0 .7-.03.99-.1.29-.06.52-.13.7-.2l.28 1.27c-.14.07-.36.15-.67.23-.31.08-.7.12-1.19.12-.58 0-1.08-.08-1.5-.24-.42-.16-.75-.39-1-.68a1.75 1.75 0 01-.36-1.1c0-.42.11-.78.33-1.08.22-.3.54-.53.95-.7.42-.17.91-.25 1.47-.25z"
+                />
+              </svg>
+              <p>Photoshop</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="random-facts">
+        <h1 data-i18n="facts.title">Datos curiosos</h1>
+        <div>
+          <p data-i18n="facts.text">
+            Soy un gran fan del anime. El tenis y el fútbol me mantienen activo.
+            Amo acampar bajo las estrellas. El senderismo despeja mi mente.
+            Preparar cócteles es mi lado creativo. Sueño con viajar por el
+            mundo. Me encanta ayudar a los perros callejeros.
+          </p>
+          <img src="assets/images/anime-fan-1.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-info">
+        <img src="assets/icons/todo-fondo.png" alt="Logo" />
+        <p data-i18n="footer.text">
+          Viviendo, aprendiendo y mejorando cada día.
+        </p>
+      </div>
+
+      <div class="socials">
+        <ul>
+          <li>
+            <a
+              href="https://github.com/OspinaFelipeDev"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://wa.me/573134802365"
+              target="_blank"
+              aria-label="WhatsApp"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.facebook.com/share/1EJAxKZYDe/"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.linkedin.com/in/andr%C3%A9s-felipe-cubillos-ospina-9619962a3/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <a href="#top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </footer>
+
+    <script src="js/backToTop.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/language.js"></script>
+  </body>
+</html>
