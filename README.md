@@ -6,6 +6,8 @@ Este proyecto representa mi trabajo como **Frontend Designer & Web Developer**, 
 
 El objetivo de este portafolio no es solo presentar mis proyectos, sino también reflejar mi estilo de diseño, atención al detalle y enfoque en la experiencia de usuario.
 
+---
+
 ## 🌐 Acerca del Proyecto
 
 Este portafolio fue diseñado y desarrollado desde cero con un enfoque en:
@@ -21,6 +23,8 @@ Este portafolio fue diseñado y desarrollado desde cero con un enfoque en:
 - Optimización de rendimiento
 
 Funciona como un espacio central donde reclutadores, clientes y colaboradores pueden conocer más sobre mí y ponerse en contacto fácilmente.
+
+---
 
 
 ## ✨ Características Principales
@@ -39,6 +43,8 @@ Funciona como un espacio central donde reclutadores, clientes y colaboradores pu
 
 - Código limpio y bien estructurado
 
+---
+
 ## 📱 Diseño Responsive
 
 El diseño se adapta de manera fluida a diferentes tamaños de pantalla:
@@ -51,13 +57,20 @@ El diseño se adapta de manera fluida a diferentes tamaños de pantalla:
 
 Cada sección fue ajustada cuidadosamente para mantener equilibrio visual y buena experiencia de usuario en todos los dispositivos.
 
+---
+
 ## 🛠 Tecnologías Utilizadas
 
 - **HTML5**
+
 - **CSS3**
+
 - **JavaScript**
+
 - Animaciones con CSS (keyframes)
+
 - Diseño con Flexbox
+
 - Optimización visual y estructural
 
 ---
@@ -96,6 +109,8 @@ Si deseas trabajar conmigo, colaborar en un proyecto o simplemente saludar:
 
 ![Inicio-Desktop](css/capture-gastos.png)
 
+---
+
 ### 🧠 Inspiración
 
 Este portafolio fue inspirado en el diseño y estructura del sitio web de Matt Farley (https://mattfarley.ca/).
@@ -104,7 +119,7 @@ Tomé como referencia su estilo minimalista, el uso de espacios en blanco, la cl
 
 A partir de esa inspiración, desarrollé mi propia versión adaptando el diseño a mi identidad visual, agregando microinteracciones, efectos sutiles, mejoras de accesibilidad y un enfoque completamente responsive.
 
-
+---
 
 ## Licencia
 
