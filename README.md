@@ -14,7 +14,7 @@ El objetivo de este portafolio no es solo presentar mis proyectos, sino también
 
 ## 👀 Vista previa
 
-![Preview del portafolio](assets/preview.gif)
+![Preview del portafolio](assets/images/preview.gif)
 
 ---
 
