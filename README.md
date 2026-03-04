@@ -108,19 +108,6 @@ Si deseas trabajar conmigo, colaborar en un proyecto o simplemente saludar:
 ---
 
 
-## Capturas de Pantalla 📷📷
-
-- Vista pantalla móvil
-
-![Inicio-Móvil](css/capture%20(2).png)
-
-
-- Vista pantalla Desktop
-
-![Inicio-Desktop](css/capture-gastos.png)
-
----
-
 ### 🧠 Inspiración
 
 Este portafolio fue inspirado en el diseño y estructura del sitio web de Matt Farley (https://mattfarley.ca/).
