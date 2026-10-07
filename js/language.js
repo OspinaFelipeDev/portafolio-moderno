@@ -55,7 +55,7 @@ const translations = {
       "Reproductor de música con la mejor cumbia caucana.",
     "projects.cumbia.tech": "HTML, CSS y JavaScript.",
 
-    "projects.tourism.title": "Página de turismo",
+    "projects.tourism.title": "HuilaGo Turismo",
     "projects.tourism.desc": "Página web de turismo.",
     "projects.tourism.tech":
       "HTML, CSS, JavaScript y Tailwind CSS.",
@@ -146,7 +146,7 @@ const translations = {
       "HTML, CSS and JavaScript.",
 
     "projects.tourism.title":
-      "Tourism Website",
+      "HuilaGo Tourism",
     "projects.tourism.desc":
       "Tourism website.",
     "projects.tourism.tech":
